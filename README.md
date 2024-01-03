@@ -7,3 +7,5 @@
 
   - [Estruturación de una página simple](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content)
   --> DONE [go to exercise](https://github.com/paupalazzesi/html-css-exercises/tree/main/website-html-basicestructure)
+
+- [Responsive layout practise](https://www.youtube.com/watch?v=JFbxl_VmIx0&list=LL&index=4&ab_channel=KevinPowell) --> DONE
