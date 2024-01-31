@@ -12,3 +12,6 @@
   --> DONE [Go to exercise](https://github.com/paupalazzesi/html-css-exercises/tree/b7aa0dc3ac860c66893118a98341ec5ec0f3ee9f/fundamental-layout-comprehension)
 
 - [Responsive layout practise](https://www.youtube.com/watch?v=JFbxl_VmIx0&list=LL&index=4&ab_channel=KevinPowell) --> DONE --> [go to exercise](https://github.com/paupalazzesi/html-css-exercises/tree/main/four-card-feature-section-master)
+
+
+[sarasa](https://paupalazzesi.github.io/html-css-exercises/four-card-feature-section-master)
