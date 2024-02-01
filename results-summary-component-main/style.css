@@ -1,0 +1,125 @@
+html {
+ font-size: 18px;
+ font-family: 'Hanken Grotesk', sans-serif;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --red: hsl(0, 100%, 67%);
+    --orangedyellow: hsl(39, 100%, 56%);
+    --greenteal: hsl(166, 100%, 37%);
+    --cobaltblue: hsl(234, 85%, 45%);
+    
+    --white: hsl(0, 0%, 100%);
+    --paleblue: hsl(221, 100%, 96%);
+    --lightlavender: rgb(200, 199, 255);
+    --darkgrayblue: hsl(224, 30%, 27%);
+    
+    --backgroundgradient: linear-gradient(to bottom, hsl(252, 100%, 67%), #2e2be9);
+    --circlegradient: linear-gradient(to bottom, hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+}
+
+    
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
+    height: 100vh; 
+    margin-inline: 4rem;
+    gap: 300px;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 4px 4px 15px 5px hsla(221, 100%, 96%, 0.5);
+    gap: .5rem;
+    border-radius: 1rem;
+    max-width: 35rem;
+}
+
+.result {
+    background-image: var(--backgroundgradient);
+    text-align: center;
+    border-radius: 1rem;
+    color: var(--white);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.result h2 {
+    color: var(--lightlavender);
+}
+
+.result-circle {
+    background-image: var(--circlegradient);
+    border-radius: 50%;
+    line-height: .5rem;
+    height: 170px;
+    width: 170px;
+    padding: 2rem;
+    }
+
+p {
+    font-size: .8rem;
+    color: var(--lightlavender);
+}
+
+.result-text {
+    gap: 0.1rem;
+}
+
+aside {
+    padding-inline: 1rem;
+    padding-block: 2rem;
+}
+
+.reaction {
+    list-style-image: url(assets/images/icon-reaction.svg);
+    color: var(--red);
+}
+.memory {
+    list-style-image: url(assets/images/icon-memory.svg);
+}
+.verbal {
+    list-style-image: url(assets/images/icon-verbal.svg);
+}
+.visual {
+    list-style-image: url(assets/images/icon-visual.svg);
+}
+
+span {
+    color: var(--darkgrayblue);
+    font-weight: 800;
+}
+
+button {
+    width: 100%;
+    padding: .7rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--darkgrayblue);
+    border: none
+}
+
+button:hover {
+    background-image: var(--backgroundgradient);
+    cursor: pointer;
+}
