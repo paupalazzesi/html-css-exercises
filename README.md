@@ -11,5 +11,10 @@
   - [Fundamental layout Comprehension](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension)
   --> DONE [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/fundamental-layout-comprehension)
 
-- [Responsive layout practise](https://www.youtube.com/watch?v=JFbxl_VmIx0&list=LL&index=4&ab_channel=KevinPowell) --> DONE --> [go to exercise](https://paupalazzesi.github.io/html-css-exercises/four-card-feature-section-master)
+
+Frontend Mentor:
+
+- Four Card Feature Section --> DONE --> [go to exercise](https://paupalazzesi.github.io/html-css-exercises/four-card-feature-section-master)
+
+- Blog Preview card main --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/blog-preview-card-main)
 
