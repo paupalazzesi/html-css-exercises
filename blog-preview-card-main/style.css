@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-family: 'Figtree', sans-serif;
+}
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+body {
+    background: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem; 
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    min-width: 350px;
+    max-width: 350px;    
+    background-color: var(--white);
+    border-radius: 1rem;   
+    padding: 20px;
+    border: 1px solid var(--black);
+    box-shadow: 6px 6px 0px 0px var(--black);
+    }
+
+img {
+    max-width: 100%;
+        border-radius: 1rem;    
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+
+.username {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+    .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        }
+
+    .name {
+        color: var(--black);
+        font-weight: 800;
+    }
+
+.tag {
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.3rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: 800;
+    }
+
