@@ -14,7 +14,7 @@
 
 - [Frontend Mentor](https://www.frontendmentor.io/):
 
-- Four Card Feature Section --> DONE --> [go to exercise](https://paupalazzesi.github.io/html-css-exercises/four-card-feature-section-master)
+  - Four Card Feature Section --> DONE --> [go to exercise](https://paupalazzesi.github.io/html-css-exercises/four-card-feature-section-master)
 
-- Blog Preview card main --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/blog-preview-card-main)
+  - Blog Preview card main --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/blog-preview-card-main)
 
