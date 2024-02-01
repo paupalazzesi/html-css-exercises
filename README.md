@@ -12,7 +12,7 @@
   --> DONE [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/fundamental-layout-comprehension)
 
 
-Frontend Mentor:
+- [Frontend Mentor](https://www.frontendmentor.io/):
 
 - Four Card Feature Section --> DONE --> [go to exercise](https://paupalazzesi.github.io/html-css-exercises/four-card-feature-section-master)
 
