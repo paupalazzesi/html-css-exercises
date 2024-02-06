@@ -205,10 +205,15 @@ ul, li {
     
 }
 
-@media (max-width:35rem) {
+@media screen and (width <= 650px) {
     .container {
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-      }
+          display: flex;
+          flex-direction: column;
+          margin-inline: 3rem;
     }
+
+    .your-result-text p {
+        width: 35ch;
+    }
+
+  }
