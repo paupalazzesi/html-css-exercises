@@ -18,6 +18,6 @@
 
   - Blog Preview card main --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/blog-preview-card-main)
  
-  - Results summary component --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/results-summary-component-main/results-summary-component-main)
+  - Results summary component --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/frontendmentor-results-summary-component-main/results-summary-component-main)
 
 
