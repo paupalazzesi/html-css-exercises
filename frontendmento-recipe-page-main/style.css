@@ -86,11 +86,15 @@ ol {
 }
 
 .nutrition-table {
+    border-collapse: collapse;
     width: 100%;
-    margin: 1rem;
-    line-height: 2rem;
+    margin-top: 1rem;
+  }
+  
+  tr:not(:last-child) {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    line-height: 2.5rem;
 }
-
 
 .table-value {
     font-weight: 600;
