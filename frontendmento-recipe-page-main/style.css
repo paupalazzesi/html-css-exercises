@@ -91,9 +91,6 @@ ol {
     line-height: 2rem;
 }
 
-tr::after{
-    content: attr('hr');
-}
 
 .table-value {
     font-weight: 600;
