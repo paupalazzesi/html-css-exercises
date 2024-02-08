@@ -55,7 +55,7 @@ main {
 }
 
 h1 {
-    color: black;
+    color: var(--neutrals-06);
     margin-top: 2rem;
     font-weight: 400;
 }
