@@ -100,3 +100,7 @@ ol {
     font-weight: 600;
     color: var(--primary-01);
 }
+
+.table-category {
+    padding-left: 1rem;
+}
