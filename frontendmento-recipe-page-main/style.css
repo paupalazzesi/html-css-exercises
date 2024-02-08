@@ -41,7 +41,7 @@ h1, h2, h3 {
 
 main {
     margin-top: 5rem;
-    padding: 4rem;
+    padding: 2.5rem;
     max-width: 40%;
     background-color: var(--neutrals-01);
     border-radius: 1rem;
