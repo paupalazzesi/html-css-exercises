@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+ --primary-01: hsl(257, 40%, 49%);
+ --primary-02: hsl(300, 69%, 71%);
+}
+
+* {
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+   
+
+body {
+    padding: 5rem;
+    background-color: var(--primary-01);
+    background-image: url(images/bg-desktop.svg);
+}
+
+
+header {
+    height: 1rem;
+}
+
+.logo {
+    width: 150px;
+}
+
+main {
+    margin: 40px;    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-column01 {
+    display: flex;
+    align-items: start;
+}
+
+img {
+    width: 100%;
+}
+
+.btn-register {
+    background-color: var(--primary-01);
+}
+
+.social-media {
+    display: flex;
+    align-items: flex-end;
+}
