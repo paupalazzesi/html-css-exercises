@@ -20,37 +20,54 @@ body {
     padding: 5rem;
     background-color: var(--primary-01);
     background-image: url(images/bg-desktop.svg);
-}
-
-
-header {
-    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .logo {
-    width: 150px;
+    width: 15rem;
+    margin-bottom: 4rem;
 }
 
 main {
-    margin: 40px;    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    color: white;
+    line-height: 2rem;
 }
 
-.main-column01 {
-    display: flex;
-    align-items: start;
-}
 
 img {
     width: 100%;
 }
 
+.main-column02 {
+   margin: 4rem;
+}
+
+.title {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.description {
+    margin-bottom: 2rem;
+    max-width: 64ch;
+    font-size: 1.2rem;
+}
+
 .btn-register {
-    background-color: var(--primary-01);
+    background-color: white;
+    border-radius: 2rem;
+    padding: .8em 3.5em;
+    font-size: 1.2rem;
+    color: var(--primary-01);
+    box-shadow: 2px 2px 5px 10px var(--primary-01);
 }
 
 .social-media {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
 }
