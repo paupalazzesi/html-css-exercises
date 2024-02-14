@@ -83,7 +83,7 @@ main {
     justify-content: flex-end;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 750px) {
     :root {
         font-size: 12px; 
     }
