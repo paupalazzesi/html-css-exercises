@@ -45,6 +45,7 @@ main {
 
 .illustration-mockups {
     max-width: 100%;
+    min-width: 350px
 }
 
 .main-column02 {
@@ -83,7 +84,7 @@ main {
     justify-content: flex-end;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 768px) {
     :root {
         font-size: 12px; 
     }
@@ -92,6 +93,6 @@ main {
         display: block;
         text-align: center;
     }
-
-    
+           
 }
+
