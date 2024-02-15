@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap');
 
+
+
 :root {
  --primary-01: hsl(257, 40%, 49%);
  --primary-02: hsl(300, 69%, 71%);
@@ -84,10 +86,31 @@ main {
     justify-content: flex-end;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    border: solid 1px;
+    border-radius: 100%;
+    padding: .6rem;
+    margin: .7rem
+
+}
+
+a:hover {
+    color: var(--primary-02);
+}
+
 @media screen and (max-width: 768px) {
     :root {
         font-size: 12px; 
     }
+
+    body {
+        background-image: url(images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+    } 
 
     main {
         display: block;
@@ -95,3 +118,42 @@ main {
     }
            
 }
+
+/* SOCIAL ICONS */
+
+@font-face {
+    font-family: 'icomoon';
+    src:
+      url('fonts/icomoon.ttf?dh897a') format('truetype'),
+      url('fonts/icomoon.woff?dh897a') format('woff'),
+      url('fonts/icomoon.svg?dh897a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  .icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook:before {
+    content: "\2605";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+
