@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+ --clr-accent: hsl(75, 94%, 57%);
+ --clr-neutral-text: hsl(0, 0%, 100%);
+ --clr-neutral-btn-background: hsl(0, 0%, 20%);
+ --clr-neutral-card-background: hsl(0, 0%, 12%);
+ --clr-neutral-main-background: hsl(0, 0%, 8%);
+ --fs-body: 14px
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-neutral-main-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+.card {
+    color: var(--clr-neutral-text);
+    background-color: var(--clr-neutral-card-background);
+    border-radius: 0.7rem;
+    font-family: "inter";
+    text-align: center;    
+    padding: 2rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.user-name {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-block: .5rem;
+
+}
+
+.user-location {
+    font-size: 1em;
+    color: var(--clr-accent)
+}
+
+p {
+    margin-block: 2rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons a {
+    text-decoration: none;
+    background-color: var(--clr-neutral-btn-background);
+    color: var(--clr-neutral-text);
+    font-weight: 700;
+    border-radius: .7rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+a:hover {
+    background-color: var(--clr-accent);
+    color: var(--clr-neutral-card-background)
+}
+
