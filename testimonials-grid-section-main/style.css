@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root {
+
+--clr-primary-bg01: hsl(276, 70%, 43%);
+--clr-primary-bg02: hsl(217, 19%, 35%);
+--clr-primary-bg03: hsl(218, 43%, 18%);
+--clr-primary-bg04: hsl(0, 0%, 100%);
+
+--clr-background: hsl(211, 38%, 88%);
+--clr-neutral-text-dark: hsl(0, 0%, 47%);
+--clr-neutral-text-light: hsl(210, 46%, 95%);
+
+--fs-body: 16px;
+--fw-body: 500; 
+--fw-title: 600;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: var(--fs-body);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: var(--clr-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2;
+    gap: 2rem
+}
+
+.card {
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.card.daniel {
+    background-color: var(--clr-primary-bg01);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right top 1rem;
+    grid-area: 1 / 1 / 1 / 3 ;
+    color: var(--clr-neutral-text-light)
+}
+
+.card.jonathan {
+    background-color: var(--clr-primary-bg02);
+    color: var(--clr-neutral-text-light);
+}
+
+.card.kira {
+    background-color: var(--clr-primary-bg04);
+    grid-area: 1 / 4 / 3 / 4;
+    color: var(--clr-neutral-text-dark);
+}
+
+.card.jeanette {
+    background-color: var(--clr-primary-bg04);
+    color: var(--clr-neutral-text-dark);
+}
+
+.card.patrick {
+    background-color: var(--clr-primary-bg03);
+    grid-area: 2 / 2 / 2 / 4;
+    color: var(--clr-neutral-text-light);
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    line-height: 1.2rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.person-avatar {
+    border-radius: 50%;
+}
+
+.person-name {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+span {
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    line-height: 1.5rem;
+    opacity: 70%;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        padding: 2rem;
+    }
+        
+    .wrapper {
+        display: block;
+    }
+
+    .card {
+        margin-bottom: 1rem;
+    }
+}
