@@ -10,6 +10,12 @@
  
   - Recipe page --> DONE -->  [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/frontendmento-recipe-page-main)
 
+  - Social links Profile --> DONE -->  [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/social-links-profile-main)
+
+  - Landing Page --> DONE -->  [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/huddle-landing-page-with-single-introductory-section-master)
+
+  - Testimonials grid section --> DONE -->  [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/testimonials-grid-section-main)
+
 
 - [MDN learning area](https://developer.mozilla.org/es/docs/Learn/Front-end_web_developer):
   
