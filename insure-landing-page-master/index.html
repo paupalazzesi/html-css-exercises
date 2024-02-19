@@ -21,7 +21,7 @@
         <li><a href="#">we work</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Account</a></li>
-        <li class="nav-button"><button href="#">View plans</button></li> 
+        <li><button class="nav-button" href="#">View plans</button></li> 
       </ul>
     </nav>
   </header>
@@ -29,7 +29,7 @@
   <main>
     <section class="hero">
       
-      <div>
+      <div class="hero-text">
       
       <hr>
       
@@ -44,11 +44,13 @@
       <button class="hero-button" href="#" type="button">View plans</button>
       </div>
 
-      <img src="images/image-intro-desktop.jpg" alt="happy family">
+      <div>
+      <img class="image-hero" src="images/image-intro-desktop.jpg" alt="happy family">
+      </div>
 
-      <img src="images/bg-pattern-intro-left-desktop.svg" alt="bg pattern" role="presentation">
+      <img class="pattern-left" src="images/bg-pattern-intro-left-desktop.svg" alt="bg pattern" role="presentation">
 
-      <img src="images/bg-pattern-intro-right-desktop.svg" alt="bg pattern" role="presentation">
+      <img class="pattern-right" src="images/bg-pattern-intro-right-desktop.svg" alt="bg pattern" role="presentation">
 
     </section>
 
@@ -58,15 +60,19 @@
 
       <h2 class="weare-heading">We’re different</h2>
 
+      <div class="weare-items">
+      <article>
       <img src="images/icon-snappy-process.svg" alt="people icon" role="presentation">    
-
+      
       <h3 class="weare-item-title">Snappy Process</h3>
 
       <p class="weare-item-body">
         Our application process can be completed in minutes, not hours. Don’t get
         stuck filling in tedious forms.
       </p>
+      </article>
 
+      <article>
       <img src="images/icon-affordable-prices.svg" alt="people icon" role="presentation"> 
 
       <h3 class="weare-item-title">Affordable Prices</h3>
@@ -75,7 +81,9 @@
         We don’t want you worrying about high monthly costs. Our prices may be low,
         but we still offer the best coverage possible.
       </p>
+      </article>
 
+      <article>
       <img src="images/icon-people-first.svg" alt="people icon" role="presentation"> 
 
       <h3 class="weare-item-title">People First</h3>
@@ -84,10 +92,12 @@
         Our plans aren’t full of conditions and clauses to prevent payouts. We make
         sure you’re covered when you need it.
       </p>
+      </article>
+      </div>
     </section>
 
     <section class="cta">
-      <h2 class="cta-heading">Find out more about how we work</h2>
+      <h2 class="cta-heading">Find out more <br> about how we work</h2>
 
       <button class="cta-button">How we work</button>
     </section>
@@ -95,14 +105,19 @@
 
   <footer>
 
+    <div class="footer-heading">
+    
     <img class="logo" src="images/logo.svg" alt="insure company logo">
 
+    <div>
     <img src="images/icon-facebook.svg" alt="icon-twitter">
     <img src="images/icon-twitter.svg" alt="icon-facebook">
     <img src="images/icon-pinterest.svg" alt="icon-pinterest">
     <img src="images/icon-instagram.svg" alt="icon-instagram">
+    </div>
+    </div>
 
-    <hr>
+    <hr class="footer-divider">
 
     <div class="footer-links">
 
