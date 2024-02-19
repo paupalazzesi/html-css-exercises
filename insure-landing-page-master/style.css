@@ -43,7 +43,7 @@ header {
     height: 2rem;
 }
 
-.navlinks {
+.navlist {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -51,13 +51,19 @@ header {
     align-items: center;
 }
 
-a {
+.navlist li a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--clr-neutral-text02);
     margin-inline: 1.5rem;
     font-weight: var(--fw-body-bold);
 }
+
+.open-menu,
+.close-menu {
+    display: none;
+}
+
 
 [class*="button"] {
     border: 2px solid var(--clr-neutral-section-gradient);
@@ -113,7 +119,7 @@ hr {
     border: solid 1px white;
 }
 
-.image-hero {
+.hero-image {
     margin-bottom: -14rem;
     object-fit: cover;
     float: right;
@@ -228,6 +234,7 @@ footer {
 }
 
 .footer-column a {
+    text-decoration: none;
     text-transform: uppercase;
     font-weight: var(--fw-body-bold);
     line-height: 2rem;
@@ -247,7 +254,89 @@ footer {
     color: var(--clr-bg-section)
 }
 
-a:hover,
+.navlist li a:hover,
 img:hover {
 color: var(--clr-bg-section)
+}
+
+
+/* MEDIA QUERIS */
+
+@media screen and (max-width:950px) {
+    .open-menu
+    .close-menu {
+        display: block;
+    }
+
+    .navmenu {
+        opacity: 0;
+        display: hidden;
+    }
+
+    .navmenu  {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: var(--clr-bg-section);
+        padding: 2rem;
+        z-index: 100;
+        bottom: 0;
+    }
+
+    .navlist {
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem        
+    }
+
+    .navlist li a {
+        margin-inline: 0;        
+    }
+
+    header {
+        padding-inline: 4rem;
+        position: relative;
+    }
+
+    .hero {
+        display: block;
+        text-align: center;
+        padding-inline: 2rem;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .hero-image {
+        margin-top: 2rem;
+    }
+
+    .weare-items {
+        display: block;
+        text-align: center;
+    }
+
+    .cta {
+        display: block;
+        margin-inline: 2rem;
+        text-align: center;
+    }
+
+    .cta-heading {
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-links,
+    .footer-heading {
+        display: block;
+        text-align: center;
+    }
+
 }
