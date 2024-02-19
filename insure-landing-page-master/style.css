@@ -4,9 +4,10 @@
 
     --clr-bg-section: hsl(256, 26%, 20%);
     --clr-bg-icon: hsl(216, 30%, 68%);
-
+    
     --clr-neutral-section-gradient: hsl(270, 9%, 17%);
     --clr-neutral-text02: hsl(273, 4%, 51%);
+    --clr-neutral-divider: hsl(0, 14%, 95%);
     --clr-neutral-bg: hsl(0, 0%, 98%);
 
     --fs-body: 20px;
@@ -53,8 +54,9 @@ header {
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--clr-neutral-section-gradient);
-    margin-inline: 1rem;
+    color: var(--clr-neutral-text02);
+    margin-inline: 1.5rem;
+    font-weight: var(--fw-body-bold);
 }
 
 [class*="button"] {
@@ -121,6 +123,7 @@ hr {
     position: absolute;
     right: 0;
     z-index: 1;
+    height: 90%;
 }
 
 .pattern-left {
@@ -188,23 +191,63 @@ hr {
 
 /* FOOTER */
 
-.footer {
-    background-color: var(--clr-neutral-text02);
+footer {
+    background-color: var(--clr-neutral-bg);
     background-image: url(images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    padding: 5rem 10rem;
 }
 
 .footer-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 10rem;
 }
 
 .footer-divider {
     width: 100%;
+    border-color: var(--clr-neutral-divider);
     
 }
 
 .footer-links {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+.footer-column {
     display: flex;
+    flex-direction: column;
+}
+
+.column-title {
+    color: var(--clr-neutral-text02);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.footer-column a {
+    text-transform: uppercase;
+    font-weight: var(--fw-body-bold);
+    line-height: 2rem;
+    margin-left: 0;
+    color: var(--clr-bg-section);
+}
+
+
+.nav-button:hover {
+    background-color: var(--clr-bg-section);
+    color: var(--clr-neutral-bg)
+}
+
+.hero-button:hover,
+.cta-button:hover {
+    background-color: white;
+    color: var(--clr-bg-section)
+}
+
+a:hover,
+img:hover {
+color: var(--clr-bg-section)
 }
