@@ -104,14 +104,15 @@ header {
     
 }
 
-hr {
+.hero-divider,
+.weare-divider {
     color: var(--clr-neutral-bg);
     width: 8rem;
     margin-bottom: 2rem;
 }
 
 .hero-body {
-    max-width: 60ch;
+    max-width: 60ch;    
 }
 
 .hero-button {
@@ -125,6 +126,10 @@ hr {
     float: right;
 }
 
+.hero-image-mobile {
+    display: none;
+}
+
 .pattern-right {
     position: absolute;
     right: 0;
@@ -136,6 +141,14 @@ hr {
     position: absolute;
     left: 0;
     bottom: -300px;
+}
+
+.pattern-left-mobile {
+    display: none;
+}
+
+.pattern-right-mobile {
+    display: none;
 }
 
 /* WE ARE */
@@ -213,6 +226,7 @@ footer {
 .footer-divider {
     width: 100%;
     border-color: var(--clr-neutral-divider);
+    margin-bottom: 3rem;
     
 }
 
@@ -254,8 +268,7 @@ footer {
     color: var(--clr-bg-section)
 }
 
-.navlist li a:hover,
-img:hover {
+.navlist li a:hover {
 color: var(--clr-bg-section)
 }
 
@@ -308,15 +321,37 @@ color: var(--clr-bg-section)
         padding-inline: 2rem;
     }
 
+    .hero-image-mobile {
+        display: block;
+        width: 100%;
+    }
+
     hr {
+        display: none 
+    }
+
+    .pattern-left-mobile {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .pattern-right-mobile {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .hero-image, 
+    .pattern-left,
+    .pattern-right {
         display: none;
     }
 
-    .hero-image {
-        margin-top: 2rem;
-    }
-
-    .weare-items {
+    .weare-items,
+    .weare-heading {
         display: block;
         text-align: center;
     }
