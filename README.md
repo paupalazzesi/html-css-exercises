@@ -16,6 +16,8 @@
 
   - Testimonials grid section --> DONE -->  [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/testimonials-grid-section-main)
 
+  - Insurance landing page --> DONE -->  [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/insure-landing-page-master)
+
 
 - [MDN learning area](https://developer.mozilla.org/es/docs/Learn/Front-end_web_developer):
   
