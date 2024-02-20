@@ -87,7 +87,7 @@ header {
 [class*="body"] {
     font-size: var(--fs-body);
     font-weight: var(--fw-body-regular);
-    color: white;
+    color: var(--clr-neutral-bg);
     line-height: 2rem;
     margin-bottom: 2rem;
 }
@@ -116,8 +116,8 @@ header {
 }
 
 .hero-button {
-    color: white;
-    border: solid 1px white;
+    color: var(--clr-neutral-bg);
+    border: solid 1px var(--clr-neutral-bg);
 }
 
 .hero-image {
@@ -200,8 +200,8 @@ header {
 }
 
 .cta-button {
-    color: white;
-    border: solid 1px white
+    color: var(--clr-neutral-bg);
+    border: solid 1px var(--clr-neutral-bg)
 }
 
 .cta-heading {
@@ -326,8 +326,13 @@ color: var(--clr-bg-section)
         width: 100%;
     }
 
-    hr {
+    .hero-divider {
         display: none 
+    }
+
+    .hero-heading {
+        font-size: 4rem;
+        line-height: 4rem;
     }
 
     .pattern-left-mobile {
@@ -351,7 +356,8 @@ color: var(--clr-bg-section)
     }
 
     .weare-items,
-    .weare-heading {
+    .weare-heading,
+    .weare-divider {
         display: block;
         text-align: center;
     }
