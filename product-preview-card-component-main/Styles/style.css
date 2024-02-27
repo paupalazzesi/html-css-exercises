@@ -43,20 +43,20 @@ body {
 .card .info .label {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
   color: hsl(228, 12%, 48%);
 }
 .card .info .title {
-  font-size: 4rem;
-  line-height: 4.2rem;
-  margin-bottom: 2rem;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  margin-bottom: 1rem;
   font-family: "Fraunces", serif;
 }
 .card .info .body {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  line-height: 2.2rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
   font-family: "Montserrat", sans-serif;
   color: hsl(228, 12%, 48%);
 }
@@ -65,16 +65,16 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 0.2rem;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-family: "Fraunces", serif;
 }
 .card .info .price .price-main {
-  font-size: 3rem;
+  font-size: 2rem;
   color: hsl(158, 36%, 37%);
   font-weight: bold;
 }
 .card .info .price .price-secondary {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: hsl(228, 12%, 48%);
   text-decoration: line-through;
 }
@@ -92,4 +92,17 @@ body {
 .card .info .button img {
   margin-right: 1rem;
   min-width: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: block;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin-inline: 1.5rem;
+    border-radius: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

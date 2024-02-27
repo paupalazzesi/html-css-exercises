@@ -56,22 +56,22 @@ body {
         .label {
             text-transform: uppercase;
             letter-spacing: .5rem;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
             font-family: $ff-body;
             color: $clr-text-body;
         }
         
         .title {
-            font-size: 4rem;
-            line-height: 4.2rem;
-            margin-bottom: 2rem;
+            font-size: 3rem;
+            line-height: 3.2rem;
+            margin-bottom: 1rem;
             font-family: $ff-title
         }
 
         .body {
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
-            line-height: 2.2rem;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            line-height: 1.5rem;
             font-family: $ff-body;
             color: $clr-text-body;
         }
@@ -81,17 +81,17 @@ body {
             grid-template-columns: 1fr 1fr;
             gap: .2rem;
             align-items: center;
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
             font-family: $ff-title;
 
             .price-main {
-                font-size: 3rem;
+                font-size: 2rem;
                 color: $clr-btn-primary;
                 font-weight: bold;
             }
 
             .price-secondary {
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 color: $clr-text-body;
                 text-decoration: line-through;
             }
@@ -112,8 +112,19 @@ body {
                 min-width: 1rem
             }
         }
+    }
+}
 
+@media screen and (max-width:768px) {
+    body {
+        display: block;
     }
     
-
+    .card {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        margin-inline: 1.5rem; 
+        border-radius: 0;       
+    }
 }
