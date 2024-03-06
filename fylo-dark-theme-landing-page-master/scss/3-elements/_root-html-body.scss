@@ -1,0 +1,45 @@
+
+/* ---------------------------------------------------------------------
+Body and root styles
+--------------------------------------------------------------------- */
+
+html {
+    // height: 100dvh;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family:"open sans", sans-serif;
+    font-size: var(--ss-token-font-size-body-2);
+    font-weight: var(--ss-token-font-weight-regular);
+    line-height: var(--ss-token-font-line-height-base);
+    color: var(--clr-neutral-text);
+    background-color: var(--clr-primary-bg-intro);
+
+                
+    overflow-x: hidden;
+    overflow-y: auto !important;
+    overscroll-behavior-y: contain;
+
+    /* //----------------------------------------------------
+    // optimize font rendering */
+    -webkit-text-size-adjust: 100%;
+
+    /* //----------------------------------------------------
+    // optimize font smoothing
+    // antialiased */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* // subpixel-antialiased
+    // -webkit-font-smoothing: subpixel-antialiased;
+    // -moz-osx-font-smoothing: auto; */
+
+    /* //----------------------------------------------------
+    // speed up scrolling */
+    -webkit-overflow-scrolling: touch;
+
+    /* //----------------------------------------------------
+    // disable webkit tap highlight */
+    -webkit-tap-highlight-color: transparent;
+}

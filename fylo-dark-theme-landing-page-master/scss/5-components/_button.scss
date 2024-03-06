@@ -1,0 +1,43 @@
+button {
+    padding: var(--ss-token-space-md) var(--ss-token-space-xxxxl);
+    border-radius: var(--ss-token-radius-xxxxl);
+    border: none;
+    background-color: var(--clr-accent-btn-gradient01);
+    color: var(--clr-neutral-text);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--clr-accent-btn-gradient02);
+    }
+
+}
+
+.about-btn {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: var(--clr-accent-btn-gradient01);
+    border-bottom: solid 1px;
+    padding-bottom: 0.2rem;
+    border-radius: 0;
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+    &:hover {
+        color: var(--clr-accent-btn-gradient02);
+        background-color: transparent;
+    }       
+    
+}
+
+.about-btn::after {
+    content: url('images/icon-arrow.svg'); 
+    margin-left: 0.5rem;
+   
+    :hover {
+        color: var(--clr-accent-btn-gradient02);
+    }
+}  
+
+

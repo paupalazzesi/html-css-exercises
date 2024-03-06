@@ -1,0 +1,27 @@
+
+
+
+:root {
+
+        // Test Custom Properties Sass
+    // $ss-custom-theme-color-brand-main: #075c85;
+    // --ss-custom-theme-color-brand-main-lighten: #{lighten($ss-custom-theme-color-brand-main, 10%)};
+
+
+    --clr-primary-bg-intro:  #1c2431;
+    --clr-primary-bg-main: hsl(218, 28%, 13%);
+    --clr-primary-bg-footer:  hsl(216, 53%, 9%);
+    --clr-primary-bg-testimonials: hsl(219, 30%, 18%);
+
+    --clr-neutral-text: hsl(0, 0%, 100%);
+
+    --clr-accent-btn-gradient01: hsl(176, 68%, 64%);
+    --clr-accent-btn-gradient02: hsl(198, 60%, 50%);
+
+    --clr-accent-gradient: linear-gradient(90deg, rgba(101,226,217,1) 35%, rgba(51,158,204,1) 100%);
+    
+    --clr-status-error: hsl(0, 100%, 63%);   
+    
+    
+}
+

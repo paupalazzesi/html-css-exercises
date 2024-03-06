@@ -1,0 +1,54 @@
+/* --------------------------------------------------------------------- */
+// Prmitive elements styles
+/* --------------------------------------------------------------------- */
+b,
+strong {
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: var(--ss-token-font-weight-bold);
+    font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2 {
+    font-size: var(--ss-token-font-size-headline-1);
+    width: 30ch;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: var(--ss-token-font-size-headline-2);
+}
+
+p {
+    margin: 0 0 0.75rem;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+a {
+    color: var(---clr-neutral-text);
+    text-decoration: none;
+    &:focus-visible {
+        outline: solid 2px var(--clr-accent-btn-gradient01);
+    }
+    &:hover {
+        color: var(--clr-accent-btn-gradient01);
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
