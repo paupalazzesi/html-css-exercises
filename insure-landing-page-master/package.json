@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "sass": "^1.71.1"
+  }
+}
