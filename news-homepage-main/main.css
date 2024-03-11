@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+:root {
+  --clr-text-link-active: hsl(35, 77%, 62%);
+  --clr-bg-btn-primary: hsl(5, 85%, 63%);
+  --clr-bg-body: hsl(36, 100%, 99%);
+  --clr-text-numbers: hsl(233, 8%, 79%);
+  --clr-text-body: hsl(236, 13%, 42%);
+  --clr-bg-content: hsl(240, 100%, 5%);
+  --fs-body: 15px;
+  --fw-body: 400;
+  --fw-article-title: 700;
+  --fw-main-title: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: var(--fs-body);
+  background-color: var(--clr-bg-body);
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+}
+
+p {
+  margin: 0 0 0.75rem;
+  font-size: var(--fs-body);
+  color: var(--clr-text-body);
+}
+
+a {
+  color: var(--clr-text-body);
+  text-decoration: none;
+}
+a:focus-visible {
+  outline: solid 2px var(--clr-text-link-active);
+}
+a:hover {
+  background-color: var(--clr-text-link-active);
+}
+
+mark {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

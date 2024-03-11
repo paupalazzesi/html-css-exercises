@@ -1,0 +1,40 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-size: var(--fs-body);
+    background-color: var(--clr-bg-body);
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+}
+
+p {
+    margin: 0 0 0.75rem;
+    font-size: var(--fs-body);
+    color: var(--clr-text-body);
+}
+
+a {
+    color: var(--clr);
+    text-decoration: none;
+    &:focus-visible {
+        outline: solid 2px var(--ss-token-color-secondary-light);
+    }
+    &:hover {
+        background-color: var(--ss-token-color-accent-alpha-10);
+    }
+}
+
+mark {
+    text-decoration: none;
+}
