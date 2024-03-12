@@ -5,8 +5,7 @@ html {
 body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
-    background-color: var(--clr-bg-body);
-    line-height: 1.5;
+    background-color: var(--clr-bg-body);    
 }
 
 b,
@@ -37,6 +36,7 @@ p {
     margin: 0 0 0.75rem;
     font-size: var(--fs-body);
     color: var(--clr-text-body);
+    line-height: 1.5;
 }
 
 a {
