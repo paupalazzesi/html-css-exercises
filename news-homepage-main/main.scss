@@ -63,6 +63,10 @@
             border: none;
             letter-spacing: 0.2rem;
             font-weight: 700;
+
+            &:hover.main-button {
+                background-color: var(--clr-text-link-active);
+            }
         
         }
        

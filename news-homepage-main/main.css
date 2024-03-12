@@ -141,6 +141,9 @@ mark {
   letter-spacing: 0.2rem;
   font-weight: 700;
 }
+.main-container .main-article .main-button:hover.main-button {
+  background-color: var(--clr-text-link-active);
+}
 .main-container .new-container {
   grid-column: 3;
   grid-row: 1/3;
