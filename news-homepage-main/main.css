@@ -93,7 +93,7 @@ mark {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 4rem;
+  margin: 3rem 5rem;
 }
 
 .header-container {
@@ -106,7 +106,7 @@ mark {
   display: flex;
 }
 .header-container .nav-menu li {
-  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .main-container {
@@ -115,7 +115,6 @@ mark {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 1rem;
   margin-bottom: 4rem;
-  max-height: 100vh;
 }
 .main-container .main-article {
   grid-column: 1/3;
@@ -123,33 +122,47 @@ mark {
 }
 .main-container .main-article img {
   grid-column: 1/3;
-  grid-row: 1/2;
+  grid-row: 1;
   max-width: 100%;
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.main-container .main-article .main-title {
-  grid-column: 1;
-  grid-row: 2;
-}
 .main-container .main-article .main-body-container {
-  grid-column: 2;
-  grid-row: 2;
+  display: flex;
+  flex-direction: row;
+}
+.main-container .main-article .main-button {
+  background-color: var(--clr-bg-btn-primary);
+  color: var(--clr-bg-body);
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border: none;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
 }
 .main-container .new-container {
   grid-column: 3;
   grid-row: 1/3;
   background-color: var(--clr-bg-content);
   color: var(--clr-bg-body);
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .main-container .new-container .new-title {
   color: var(--clr-text-link-active);
+  margin-bottom: 2rem;
+}
+.main-container .new-container .new-article-title {
   margin-bottom: 1rem;
 }
-.main-container .new-container .new-body {
-  margin-bottom: 1rem;
+.main-container .new-container .new-article-body {
+  margin-bottom: 2rem;
+  color: var(--clr-text-numbers);
+}
+.main-container .new-container .divider {
+  background-color: var(--clr-text-link-active);
+  height: 0.1px;
+  margin-bottom: 2rem;
 }
 .main-container .bottom-articles-container {
   grid-column: 1/4;
@@ -161,6 +174,13 @@ mark {
 .main-container .bottom-articles-container .bottom-article {
   display: flex;
   align-items: center;
-  gap: 0.5rem img;
-  gap-max-width: 50px;
+  gap: 0.7rem;
+}
+.main-container .bottom-articles-container .bottom-article img {
+  max-width: 25%;
+}
+.main-container .bottom-articles-container .bottom-article mark {
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--clr-text-numbers);
 }/*# sourceMappingURL=main.css.map */
