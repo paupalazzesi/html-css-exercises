@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 :root {
   --clr-text-link-active: hsl(35, 77%, 62%);
@@ -89,6 +90,11 @@ mark {
   text-decoration: none;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+}
+
 .body-container {
   display: flex;
   flex-direction: column;
@@ -109,6 +115,9 @@ mark {
   margin-left: 2rem;
 }
 .header-container .nav-icon {
+  display: none;
+}
+.header-container .nav-icon-close {
   display: none;
 }
 
@@ -215,6 +224,25 @@ mark {
   }
   .nav-menu {
     display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--clr-text-numbers);
+    padding: 3rem 6rem 1rem 1rem;
+  }
+  .nav-menu .nav-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-startç;
+  }
+  .nav-menu .nav-icon-close {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 0.7rem;
   }
   .header-container .nav-icon {
     display: block;

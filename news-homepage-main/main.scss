@@ -32,7 +32,9 @@
     .nav-icon {
         display: none;
     }
-
+    .nav-icon-close {
+        display: none;
+    }
 
 }
 
@@ -168,6 +170,28 @@
 
     .nav-menu {
         display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: var(--clr-text-numbers);
+        padding: 3rem 6rem 1rem 1rem;
+
+        .nav-menu-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: flex-startç;
+        }
+
+        .nav-icon-close {
+            display: block;
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            width: 0.7rem;               
+                        
+        }
     }
 
     .header-container .nav-icon {
