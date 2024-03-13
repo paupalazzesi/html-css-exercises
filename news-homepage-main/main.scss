@@ -29,12 +29,11 @@
         }
     }
 
-    .nav-icon {
+    .nav-icon,
+    .nav-icon-close  {
         display: none;
     }
-    .nav-icon-close {
-        display: none;
-    }
+    
 
 }
 
@@ -169,13 +168,15 @@
     }
 
     .nav-menu {
-        display: none;
+        opacity: 0;
+        visibility: hidden;
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         background-color: var(--clr-text-numbers);
         padding: 3rem 6rem 1rem 1rem;
+        box-shadow: 0 0 0 100vmax rgba($color: #000000, $alpha: .3);
 
         .nav-menu-list {
             display: flex;
@@ -192,6 +193,11 @@
             width: 0.7rem;               
                         
         }
+    }
+
+    .nav-menu.visible {
+        opacity: 1;
+        visibility: visible;
     }
 
     .header-container .nav-icon {

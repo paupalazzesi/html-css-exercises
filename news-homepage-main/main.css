@@ -93,6 +93,7 @@ mark {
 button {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .body-container {
@@ -114,9 +115,7 @@ button {
 .header-container .nav-menu-list li {
   margin-left: 2rem;
 }
-.header-container .nav-icon {
-  display: none;
-}
+.header-container .nav-icon,
 .header-container .nav-icon-close {
   display: none;
 }
@@ -223,13 +222,15 @@ button {
     margin: 3rem 2rem;
   }
   .nav-menu {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     background-color: var(--clr-text-numbers);
     padding: 3rem 6rem 1rem 1rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.3);
   }
   .nav-menu .nav-menu-list {
     display: flex;
@@ -243,6 +244,10 @@ button {
     top: 2rem;
     right: 2rem;
     width: 0.7rem;
+  }
+  .nav-menu.visible {
+    opacity: 1;
+    visibility: visible;
   }
   .header-container .nav-icon {
     display: block;
