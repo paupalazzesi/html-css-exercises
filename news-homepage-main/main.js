@@ -1,3 +1,5 @@
+window.onload = function () {
+
 const nav = document.querySelector("#nav");
 const open = document.querySelector("#open");
 const close = document.querySelector("#close");
@@ -9,3 +11,5 @@ open.addEventListener("click", () => {
 close.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
+
+};
