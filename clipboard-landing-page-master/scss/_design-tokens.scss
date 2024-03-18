@@ -1,0 +1,18 @@
+$fs-base: 16px;
+
+:root {
+
+--base-line-height: 1.5;
+
+--fs-body: $fs-base;
+--fs-title: calc(#{$fs-base} * 3);
+--fs-subtitle: calc(#{$fs-base} * 2);
+
+--clr-primary: hsl(171, 66%, 44%);
+--clr-secondary: hsl(233, 100%, 69%);
+--clr-neutral-dark: hsl(210, 10%, 33%);
+--clr-neutral-light: hsl(201, 11%, 66%);
+--clr-neutral-bg: hsl(0, 0%, 94%);
+
+
+}

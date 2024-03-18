@@ -1,0 +1,62 @@
+@use "design-tokens";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+b,
+strong {
+    font-weight: 500;
+}
+
+
+h1 {
+    font-size: var(--fs-title);
+}
+
+h2 {
+    font-size: var(--fs-subtitle);
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: var(--ss-token-font-weight-bold);
+    
+}
+
+p {
+    margin: 0 0 0.75rem;
+    font-size: var(--fs-body);
+    line-height: 2;
+}
+
+a {
+    color: var(---clr-neutral-text);
+    text-decoration: none;
+    cursor: pointer;
+    &:focus-visible {
+        outline: solid 2px var(--clr-primary);
+    }
+    &:hover {
+        color: var(--clr-primary);
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: "Bai Jamjuree", sans-serif;;
+}
