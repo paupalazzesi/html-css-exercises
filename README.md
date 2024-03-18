@@ -22,7 +22,7 @@
  
   - News Homepage Main with grid --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/news-homepage-main)
 
-    - Clipboard Landing Page --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/clipboard-landing-page-main)
+    - Clipboard Landing Page --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/clipboard-landing-page-master)
 
 
 - [MDN learning area](https://developer.mozilla.org/es/docs/Learn/Front-end_web_developer):
