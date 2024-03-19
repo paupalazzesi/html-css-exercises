@@ -2,18 +2,14 @@
 @media screen and (max-width: 500px) {
  
     body {
-        margin: auto;
+        margin-inline: 3rem;
         text-align: center;
-    }
+    }  
+        
+    .btn-container {
+        @include flex-column-center;
 
-    .hero-section {
-        display: block;
-    
-        .btn-container {
-            display: block;
-        }
 
     }
-
 
 }

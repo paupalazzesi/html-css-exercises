@@ -119,14 +119,11 @@ body {
 
 @media screen and (max-width: 500px) {
   body {
-    margin: auto;
+    margin-inline: 3rem;
     text-align: center;
   }
-  .hero-section {
-    display: block;
-  }
-  .hero-section .btn-container {
-    display: block;
+  .btn-container {
+    display: flex;
   }
 }
 .hero-section {
@@ -149,6 +146,7 @@ body {
 .hero-section .btn-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .hero-section .btn-container .btn-primary {
   max-width: 15rem;
@@ -174,7 +172,6 @@ body {
 .features-section .text-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
 }
@@ -205,7 +202,6 @@ body {
 .access-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
 }
@@ -220,7 +216,6 @@ body {
 .superchange-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
 }
@@ -233,7 +228,6 @@ body {
 .superchange-section .superchange-item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin-left: 3rem;
 }
@@ -261,7 +255,6 @@ body {
 .cta-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
 }
@@ -293,6 +286,7 @@ body {
 
 .footer-container {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 5rem 10rem;
