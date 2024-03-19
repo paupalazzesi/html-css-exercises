@@ -91,6 +91,7 @@ body {
   line-height: var(--base-line-height);
   color: var(--clr-neutral-dark);
   margin-top: 5rem;
+  text-align: center;
   background-image: url(images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -116,6 +117,18 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+@media screen and (max-width: 500px) {
+  body {
+    margin: auto;
+    text-align: center;
+  }
+  .hero-section {
+    display: block;
+  }
+  .hero-section .btn-container {
+    display: block;
+  }
+}
 .hero-section {
   display: flex;
   flex-direction: column;
@@ -132,7 +145,6 @@ body {
 .hero-section .body {
   margin-bottom: 2rem;
   max-width: 65ch;
-  text-align: center;
 }
 .hero-section .btn-container {
   display: flex;
@@ -171,12 +183,12 @@ body {
 }
 .features-section .text-container p {
   max-width: 65ch;
-  text-align: center;
 }
 .features-section .img-items-container {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-align: left;
 }
 .features-section .img-items-container .items-container {
   margin-left: 5rem;
@@ -202,7 +214,6 @@ body {
 }
 .access-section p {
   max-width: 65ch;
-  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -257,7 +268,6 @@ body {
 .cta-section p {
   margin-bottom: 3rem;
   max-width: 65ch;
-  text-align: center;
 }
 .cta-section .btn-container {
   display: flex;
@@ -299,14 +309,4 @@ body {
 }
 .footer-container .footer-socialmedia a {
   margin-left: 1rem;
-}
-
-@media (max-width: 600px) {
-  body {
-    margin: 3rem;
-  }
-  .btn-container {
-    display: flex;
-    flex-direction: column;
-  }
 }/*# sourceMappingURL=styles.css.map */
