@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+:root {
+  --clr-bg-red:hsl(7, 99%, 70%);
+  --clr-bg-yellow: hsl(51, 100%, 49%);
+  --clr-bg-green:hsl(168, 34%, 41%);
+  --clr-txt-green: hsl(167, 40%, 24%);
+  --clr-txt-darkblue: hsl(198, 62%, 26%);
+  --clr-neutral-900: hsl(212, 27%, 19%);
+  --clr-neutral-700: hsl(213, 9%, 39%);
+  --clr-neutral-400: hsl(232, 10%, 55%);
+  --clr-neutral-300: hsl(210, 4%, 67%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --fs-headline-1: calc(32px + 1vw);
+  --fs-title-1: calc(24px + 1vw);
+  --fs-title-2: calc(18px + 1vw);
+  --fs-body: calc(16px + 0.5vw);
+  --fs-caption: calc(14px + 0.5vw);
+  --fs-caption-2: calc(12px + 0.5vw);
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-900: 900;
+  --ff-title: "Fraunces", serif;
+  --ff-body: "Barlow", sans-serif;
+  --line-height-base: 1.5;
+  --space-sm: calc(16px / 2);
+  --space-md: $space-base;
+  --space-lg: calc(16px * 2);
+  --space-xl: calc(16px * 3);
+  --space-xxl: calc(16px * 4);
+  --space-xxxl: calc(16px * 6);
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-neutral-900);
+  background-color: var(--clr-neutral-100);
+  line-height: var(--line-height-base);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: var(--clr-txt-darkblue);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-size: var(--fs-caption);
+  cursor: pointer;
+}
+
+.btn-contact-main {
+  background-color: var(--clr-neutral-100);
+  border-radius: var(--radius-lg);
+  padding: 0.8em 1.5em;
+  font-family: var(--ff-title);
+  font-size: var(--fs-caption-2);
+  font-weight: var(--fw-900);
+  text-transform: uppercase;
+  color: var(--clr-txt-darkblue);
+}
+
+.btn-articles {
+  font-family: var(--ff-title);
+  font-size: var(--fs-caption-2);
+  font-weight: var(--fw-900);
+  text-transform: uppercase;
+  color: var(--clr-txt-darkblue);
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+}
+.header-container .nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-xl);
+}
+.header-container .nav-container .nav-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container .nav-container .nav-list ul li {
+  list-style-type: none;
+  margin-left: var(--space-lg);
+  color: var(--clr-neutral-100);
+  font-size: var(--fs-caption);
+}
+.header-container .main-title {
+  font-size: var(--fs-headline-1);
+  font-family: var(--ff-title);
+  font-weight: var(--fw-900);
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--clr-neutral-100);
+  align-self: center;
+  margin-block: var(--space-xl);
+}
+.header-container .arrow-down {
+  align-self: center;
+}
+
+.features-section .article-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.features-section .article-container .article-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: var(--space-xxl);
+}
+.features-section .article-container .article-text .title {
+  font-size: var(--fs-title-1);
+  font-family: var(--ff-title);
+  font-weight: var(--fw-900);
+  margin-bottom: var(--space-lg);
+  max-width: 60ch;
+}
+.features-section .article-container .article-text .body {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-neutral-900);
+  color: var(--clr-neutral-400);
+  margin-bottom: var(--space-lg);
+}
+.features-section .article-container .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.features-section .secondary {
+  position: relative;
+}
+.features-section .secondary .title-02 {
+  position: absolute;
+  font-size: var(--fs-title-2);
+  font-family: var(--ff-title);
+  font-weight: var(--fw-900);
+  text-align: center;
+}
+.features-section .secondary .body-02 {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,58 @@
+:root {
+
+// COLOR
+
+--clr-bg-red:hsl(7, 99%, 70%);
+--clr-bg-yellow: hsl(51, 100%, 49%);
+--clr-bg-green:hsl(168, 34%, 41%);
+--clr-txt-green: hsl(167, 40%, 24%);
+--clr-txt-darkblue: hsl(198, 62%, 26%);
+
+--clr-neutral-900: hsl(212, 27%, 19%);
+--clr-neutral-700: hsl(213, 9%, 39%);
+--clr-neutral-400: hsl(232, 10%, 55%);
+--clr-neutral-300: hsl(210, 4%, 67%);
+--clr-neutral-100: hsl(0, 0%, 100%);
+
+// FONT
+
+$font-size-xxl: 32px;
+$font-size-xl: 24px;
+$font-size-lg: 18px;
+$font-size-md: 16px;
+$font-size-sm: 14px;
+$font-size-xs: 12px;
+
+--fs-headline-1: calc(#{$font-size-xxl} + 1vw);
+--fs-title-1: calc(#{$font-size-xl} + 1vw);
+--fs-title-2: calc(#{$font-size-lg} + 1vw);
+--fs-body: calc(#{$font-size-md} + 0.5vw);
+--fs-caption: calc(#{$font-size-sm} + 0.5vw);
+--fs-caption-2: calc(#{$font-size-xs} + 0.5vw);
+
+--fw-600: 600;
+--fw-700: 700;
+--fw-900: 900;
+
+--ff-title: "Fraunces", serif;
+--ff-body: "Barlow", sans-serif;
+
+--line-height-base: 1.5;
+
+// SPACE 
+
+$space-base: 16px;
+--space-sm: calc(#{$space-base} / 2);
+--space-md: $space-base;
+--space-lg: calc(#{$space-base} * 2);
+--space-xl: calc(#{$space-base} * 3);
+--space-xxl: calc(#{$space-base} * 4);
+--space-xxxl: calc(#{$space-base} * 6);
+
+// RADIUS
+
+--radius-sm: 0.5rem;
+--radius-md: 1rem;
+--radius-lg: 2rem;
+
+}

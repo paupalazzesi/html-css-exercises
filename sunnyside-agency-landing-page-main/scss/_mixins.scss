@@ -1,0 +1,59 @@
+
+// FONT
+
+@mixin font-headline-1 {
+    font-size: var(--fs-headline-1);
+    font-family: var(--ff-title);
+    font-weight: var(--fw-900);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem; 
+    color: var(--clr-neutral-100);   
+}
+
+@mixin font-title-1 {
+    font-size: var(--fs-title-1);
+    font-family: var(--ff-title);
+    font-weight: var(--fw-900);
+}
+
+@mixin font-title-2 {
+    font-size: var(--fs-title-2);
+    font-family: var(--ff-title);
+    font-weight: var(--fw-900);
+}
+
+@mixin font-body {
+    font-size: var(--fs-body);
+    font-family: var(--ff-body);
+    color: var(--clr-neutral-900);
+}
+
+@mixin font-caption {
+    font-size: var(--fs-caption);
+    font-family: var(--ff-body);
+}
+
+@mixin font-button {
+    font-family: var(--ff-title);
+    font-size: var(--fs-caption-2);
+    font-weight: var(--fw-900);
+    text-transform: uppercase;
+    color: var(--clr-txt-darkblue);
+
+}
+
+// LAYOUT
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;    
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

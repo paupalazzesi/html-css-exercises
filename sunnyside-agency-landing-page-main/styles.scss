@@ -1,0 +1,100 @@
+@import "scss/design-tokens";
+@import "scss/mixins";
+@import "scss/global";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+.header-container {
+    @include flex-column;    
+    background-image: url(images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+
+    .nav-container {
+        @include flex-row;
+        padding: var(--space-xl);
+
+        .nav-list ul {
+            @include flex-row;
+
+            li {
+                list-style-type: none;
+                margin-left: var(--space-lg);
+                color: var(--clr-neutral-100);
+                font-size: var(--fs-caption)
+            }
+
+        }
+
+    }
+
+    .main-title {
+        @include font-headline-1;
+        align-self: center;
+        margin-block: var(--space-xl);
+    }
+
+    .arrow-down {
+        align-self: center;
+    }
+
+}
+
+.features-section {
+
+    .article-container {
+        
+        display: grid;
+        grid-template-columns: 50% 50%;    
+                                  
+        .article-text {
+            @include flex-column;
+            justify-content: center;
+            padding-inline: var(--space-xxl);
+                                               
+            .title {
+                @include font-title-1;
+                margin-bottom: var(--space-lg);
+                max-width: 60ch;
+            }
+
+            .body {
+                @include font-body;
+                color: var(--clr-neutral-400);
+                margin-bottom: var(--space-lg);
+            }            
+            
+        }
+
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+    }
+
+    .secondary {
+
+        position: relative;
+
+        .title-02 {
+            position: absolute;
+            @include font-title-2;
+            text-align: center;
+        }
+    
+        .body-02 {
+            text-align: center;
+        }
+    
+
+    }
+
+
+    
+
+}
+
