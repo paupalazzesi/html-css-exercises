@@ -56,4 +56,11 @@
     align-items: center;
 }
 
+// IMG
+
+@mixin background-fit {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
