@@ -20,8 +20,6 @@
             @include flex-row;
 
             li {
-                list-style-type: none;
-                margin-left: var(--space-lg);
                 color: var(--clr-neutral-100);
                 font-size: var(--fs-caption)
             }
@@ -178,6 +176,38 @@
 
         }
 
+    }
+
+}
+
+.gallery-section-container {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+        
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+
+.footer-container {
+    @include flex-column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: var(--clr-bg-green);
+    min-height: 35vh;
+
+    .img {
+        color: var(--clr-bg-green)
+    }
+
+    .nav-list ul {
+        @include flex-row;
     }
 
 }
