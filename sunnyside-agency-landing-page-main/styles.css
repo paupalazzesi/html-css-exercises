@@ -31,6 +31,7 @@
   --radius-sm: 0.5rem;
   --radius-md: 1rem;
   --radius-lg: 2rem;
+  --radius-xl: 50rem;
 }
 
 * {
@@ -124,46 +125,129 @@ button {
   align-self: center;
 }
 
-.features-section .article-container {
+.features-section-container .article-container {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-.features-section .article-container .article-text {
+.features-section-container .article-container .article-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-inline: var(--space-xxl);
 }
-.features-section .article-container .article-text .title {
+.features-section-container .article-container .article-text .title {
   font-size: var(--fs-title-1);
   font-family: var(--ff-title);
   font-weight: var(--fw-900);
   margin-bottom: var(--space-lg);
   max-width: 60ch;
+  color: var(--clr-neutral-900);
 }
-.features-section .article-container .article-text .body {
+.features-section-container .article-container .article-text .body {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-neutral-900);
   color: var(--clr-neutral-400);
   margin-bottom: var(--space-lg);
 }
-.features-section .article-container .image img {
+.features-section-container .article-container .image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.features-section .secondary {
-  position: relative;
+.features-section-container .article-container .article-background {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 5rem;
 }
-.features-section .secondary .title-02 {
-  position: absolute;
+.features-section-container .article-container .article-background .title {
   font-size: var(--fs-title-2);
   font-family: var(--ff-title);
   font-weight: var(--fw-900);
+  margin-bottom: 1rem;
+}
+.features-section-container .article-container .article-background .body {
+  max-width: 40ch;
   text-align: center;
 }
-.features-section .secondary .body-02 {
+
+.cherrys {
+  background-image: url(images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cherrys .title {
+  color: var(--clr-txt-green);
+}
+.cherrys .body {
+  color: var(--clr-txt-green);
+}
+
+.orange {
+  background-image: url(images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.orange .title {
+  color: var(--clr-txt-darkblue);
+}
+.orange .body {
+  color: var(--clr-txt-darkblue);
+}
+
+.testimonials-section-container {
+  margin: 5rem;
+}
+.testimonials-section-container .title {
+  font-size: var(--fs-caption);
+  font-family: var(--ff-title);
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  color: var(--clr-neutral-400);
+  font-weight: var(--fw-600);
   text-align: center;
+}
+.testimonials-section-container .testimonials-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin: 5rem;
+}
+.testimonials-section-container .testimonials-container .testimonial-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials-section-container .testimonials-container .testimonial-column .avatar {
+  border-radius: var(--radius-xl);
+  max-width: 5rem;
+}
+.testimonials-section-container .testimonials-container .testimonial-column .text {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-neutral-900);
+  color: var(--clr-neutral-400);
+  text-align: center;
+  margin-block: 3rem;
+}
+.testimonials-section-container .testimonials-container .testimonial-column .name {
+  font-size: var(--fs-title-2);
+  font-family: var(--ff-title);
+  font-weight: var(--fw-900);
+  font-size: var(--fs-body);
+}
+.testimonials-section-container .testimonials-container .testimonial-column .role {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-neutral-900);
+  font-size: var(--fs-caption);
+  color: var(--clr-neutral-400);
 }/*# sourceMappingURL=styles.css.map */
