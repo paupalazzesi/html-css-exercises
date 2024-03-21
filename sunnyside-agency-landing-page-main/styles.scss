@@ -182,8 +182,7 @@
 
 .gallery-section-container {
     display: grid;
-    grid-template-columns: repeat(4,25%);
-        
+    grid-template-columns: repeat(4,25%);        
 
     .image img {
         width: 100%;
@@ -198,7 +197,7 @@
     @include flex-column;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 4rem;
     background-color: var(--clr-bg-green);
     min-height: 35vh;
 
@@ -208,8 +207,19 @@
 
     .nav-list ul {
         @include flex-row;
+        color: var(--clr-txt-green);
+        margin-block: 3rem;
     }
 
+    .social-media a {
+        margin: 1rem;
+    }
+
+    a {
+        &:hover {
+            color: var(--clr-neutral-100)
+        }
+    }
 }
 
 

@@ -40,6 +40,12 @@ button {
     border-radius: var(--radius-lg);
     padding: 0.8em 1.5em;
     @include font-button;   
+
+    &:hover {
+        color: var(--clr-neutral-100);
+        background-color: var(--clr-neutral-300)
+    }
+
 }
 
 .btn-articles {

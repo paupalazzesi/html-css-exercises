@@ -3,7 +3,7 @@
   --clr-bg-red:hsl(7, 99%, 70%);
   --clr-bg-yellow: hsl(51, 100%, 49%);
   --clr-bg-green:hsl(168, 55%, 66%);
-  --clr-txt-green: hsl(167, 40%, 24%);
+  --clr-txt-green: #25564b;
   --clr-txt-darkblue: hsl(198, 62%, 26%);
   --clr-neutral-900: hsl(212, 27%, 19%);
   --clr-neutral-700: hsl(213, 9%, 39%);
@@ -77,6 +77,10 @@ button {
   font-weight: var(--fw-900);
   text-transform: uppercase;
   color: var(--clr-txt-darkblue);
+}
+.btn-contact-main:hover {
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-300);
 }
 
 .btn-articles {
@@ -273,7 +277,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 4rem;
   background-color: var(--clr-bg-green);
   min-height: 35vh;
 }
@@ -285,4 +289,12 @@ button {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  color: var(--clr-txt-green);
+  margin-block: 3rem;
+}
+.footer-container .social-media a {
+  margin: 1rem;
+}
+.footer-container a:hover {
+  color: var(--clr-neutral-100);
 }/*# sourceMappingURL=styles.css.map */
