@@ -24,6 +24,9 @@
 
   - Clipboard Landing Page --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/clipboard-landing-page-master)
 
+  - Sunnyside Landing Page --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/sunnyside-agency-landing-page-main/)
+
+
 
 - [MDN learning area](https://developer.mozilla.org/es/docs/Learn/Front-end_web_developer):
   
