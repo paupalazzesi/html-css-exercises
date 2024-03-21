@@ -48,11 +48,54 @@ button {
 
 }
 
-.btn-articles {
+.btn-articles-yellow {
     @include font-button; 
-    display: flex;  
+    display: flex; 
+    position: relative; 
+    background-color: transparent;
+    
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        width: 9rem;
+        height: 0.6rem;
+        bottom: 0;
+        background: var(--clr-bg-yellow);
+        border-radius: 2rem;
+    }    
+
+    &:hover {
+        color: var(--clr-neutral-300);        
+    }
 
 }
+
+.btn-articles-red {
+    @include font-button; 
+    display: flex; 
+    position: relative; 
+    background-color: transparent;
+    
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        width: 9rem;
+        height: 0.6rem;
+        bottom: 0;
+        background: var(--clr-bg-red);
+        border-radius: 2rem;
+    }    
+
+    &:hover {
+        color: var(--clr-neutral-300);        
+    }
+
+}
+
+
+
 
 
 

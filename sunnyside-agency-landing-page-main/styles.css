@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
 :root {
-  --clr-bg-red:hsl(7, 99%, 70%);
-  --clr-bg-yellow: hsl(51, 100%, 49%);
+  --clr-bg-red:hsla(7, 99%, 70%, 0.348);
+  --clr-bg-yellow: hsla(51, 100%, 49%, 0.335);
   --clr-bg-green:hsl(168, 55%, 66%);
   --clr-txt-green: #25564b;
   --clr-txt-darkblue: hsl(198, 62%, 26%);
@@ -83,13 +83,52 @@ button {
   background-color: var(--clr-neutral-300);
 }
 
-.btn-articles {
+.btn-articles-yellow {
   font-family: var(--ff-title);
   font-size: var(--fs-caption-2);
   font-weight: var(--fw-900);
   text-transform: uppercase;
   color: var(--clr-txt-darkblue);
   display: flex;
+  position: relative;
+  background-color: transparent;
+}
+.btn-articles-yellow::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 9rem;
+  height: 0.6rem;
+  bottom: 0;
+  background: var(--clr-bg-yellow);
+  border-radius: 2rem;
+}
+.btn-articles-yellow:hover {
+  color: var(--clr-neutral-300);
+}
+
+.btn-articles-red {
+  font-family: var(--ff-title);
+  font-size: var(--fs-caption-2);
+  font-weight: var(--fw-900);
+  text-transform: uppercase;
+  color: var(--clr-txt-darkblue);
+  display: flex;
+  position: relative;
+  background-color: transparent;
+}
+.btn-articles-red::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 9rem;
+  height: 0.6rem;
+  bottom: 0;
+  background: var(--clr-bg-red);
+  border-radius: 2rem;
+}
+.btn-articles-red:hover {
+  color: var(--clr-neutral-300);
 }
 
 .header-container {

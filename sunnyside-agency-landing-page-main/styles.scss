@@ -7,9 +7,7 @@
 .header-container {
     @include flex-column;    
     background-image: url(images/desktop/image-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    @include background-fit;
     height: 95vh;
 
     .nav-container {
@@ -99,9 +97,7 @@
 
 .cherrys {
     background-image: url(images/desktop/image-graphic-design.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    @include background-fit;
 
     .title {
         color: var(--clr-txt-green);
@@ -115,9 +111,7 @@
 
 .orange {
     background-image: url(images/desktop/image-photography.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    @include background-fit;
 
     .title {
         color: var(--clr-txt-darkblue);
@@ -149,7 +143,7 @@
         .testimonial-column {
             @include flex-column;
             align-items: center;
-
+            
             .avatar {
                 border-radius: var(--radius-xl);
                 max-width: 5rem;
