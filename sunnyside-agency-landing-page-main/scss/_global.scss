@@ -61,12 +61,17 @@ button {
         width: 9rem;
         height: 0.6rem;
         bottom: 0;
-        background: var(--clr-bg-yellow);
+        background: var(--clr-bg-yellow-transparent);
         border-radius: 2rem;
     }    
 
     &:hover {
-        color: var(--clr-neutral-300);        
+        color: var(--clr-bg-yellow);
+        
+        &::after{
+            display: none;
+        }
+        
     }
 
 }
@@ -84,12 +89,17 @@ button {
         width: 9rem;
         height: 0.6rem;
         bottom: 0;
-        background: var(--clr-bg-red);
+        background: var(--clr-bg-red-transparent);
         border-radius: 2rem;
     }    
 
     &:hover {
-        color: var(--clr-neutral-300);        
+        color: var(--clr-bg-red);
+        
+        &::after{
+            display: none;
+        }
+        
     }
 
 }
