@@ -7,6 +7,7 @@
   --clr-bg-green:hsl(168, 55%, 66%);
   --clr-txt-green: #25564b;
   --clr-txt-darkblue: hsl(198, 62%, 26%);
+  --clr-bg-darkblue: hsla(198, 59%, 45%, 0.39);
   --clr-neutral-900: hsl(212, 27%, 19%);
   --clr-neutral-700: hsl(213, 9%, 39%);
   --clr-neutral-400: hsl(232, 10%, 55%);
@@ -58,6 +59,7 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.2s ease;
 }
 a:hover {
   color: var(--clr-txt-darkblue);
@@ -79,10 +81,11 @@ button {
   font-weight: var(--fw-900);
   text-transform: uppercase;
   color: var(--clr-txt-darkblue);
+  transition: background-color 0.3s ease;
 }
 .btn-contact-main:hover {
   color: var(--clr-neutral-100);
-  background-color: var(--clr-neutral-300);
+  background-color: var(--clr-bg-darkblue);
 }
 
 .btn-articles-yellow {
@@ -94,6 +97,7 @@ button {
   display: flex;
   position: relative;
   background-color: transparent;
+  transition: color 0.2s ease;
 }
 .btn-articles-yellow::after {
   content: "";
@@ -121,6 +125,7 @@ button {
   display: flex;
   position: relative;
   background-color: transparent;
+  transition: color 0.2s ease;
 }
 .btn-articles-red::after {
   content: "";
