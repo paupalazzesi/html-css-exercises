@@ -22,9 +22,9 @@
  
   - News Homepage Main with grid --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/news-homepage-main)
 
-  - Clipboard Landing Page --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/clipboard-landing-page-master)
+  - Clipboard Landing Page (Mixins, Media Queries, etc) --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/clipboard-landing-page-master)
 
-  - Sunnyside Landing Page --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/sunnyside-agency-landing-page-main/)
+  - Sunnyside Landing Page (Mixins, Media Queries, etc) --> DONE --> [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/sunnyside-agency-landing-page-main/)
 
 
 
