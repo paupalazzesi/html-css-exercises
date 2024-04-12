@@ -1,6 +1,6 @@
 # html-css-exercises
 
-- [Frontend Mentor](https://www.frontendmentor.io/):
+## [Frontend Mentor](https://www.frontendmentor.io/):
 
   - Four Card Feature Section --> DONE --> [go to exercise](https://paupalazzesi.github.io/html-css-exercises/four-card-feature-section-master)
 
@@ -28,7 +28,7 @@
 
 
 
-- [MDN learning area](https://developer.mozilla.org/es/docs/Learn/Front-end_web_developer):
+## [MDN learning area](https://developer.mozilla.org/es/docs/Learn/Front-end_web_developer):
   
   - [Marcando una Carta - Aprende desarrollo web | MDN](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter)
   --> DONE  [Go to exercise](https://paupalazzesi.github.io/html-css-exercises/tree/main/letter-html-exercise)
