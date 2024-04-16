@@ -1,0 +1,138 @@
+
+@import "_variables";
+@import "_fonts";
+@import "_reset";
+
+
+body {
+    font-family: $font-family;
+    background-color: $color-background;
+    color: $color-body;
+
+    margin: 7rem 10rem;
+
+    position: relative;
+
+}
+
+// background radials
+
+.radial-pink {
+    width: 103rem;
+    height: 95.375rem;
+    background: $color-background-radial-pink;
+    position: absolute;
+    top: -120%;
+    left: -100%;
+    z-index: -1;
+}
+
+.radial-blue {
+    width: 69.125rem;
+    height: 70.8125rem;
+    background: $color-background-radial-blue;
+    position: absolute;
+    top: -70%;
+    right: -50%;
+    z-index: -1;
+}
+
+.radial-orange {
+    width: 103rem;
+    height: 95.375rem;
+    background: $color-background-radial-orange;
+    position: absolute;
+    top: 70%;
+    left: -60%;
+    z-index: -1;
+}
+
+.radial-green {
+    width: 78.375rem;
+    height: 80.3125rem;
+    background: $color-background-radial-green;
+    position: absolute;
+    top: 70%;
+    right: -40%;
+    z-index: -1;
+}
+
+
+.header-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    margin-bottom: 4.75rem;  
+
+    .header-title {
+        font-size: 4.25rem;
+        color: $color-body;
+        margin-bottom: 1rem;
+        color: $color-card-title;
+        font-weight: 600;
+    }
+
+    .header-body {
+        max-width: 34.5rem;
+        font-size: 1.25rem;
+        text-align: center;
+        color: $color-card-body; 
+    }
+
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 1.5rem;
+    
+
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .card {        
+        background-color: $color-card-background;
+        border-radius: $radius-sm;
+        min-height: 21.1rem;
+        padding-bottom: 1rem;   
+        
+        .card-img {
+            border-top-left-radius: $radius-sm;
+            border-top-right-radius: $radius-sm;
+            margin-bottom: 1rem;
+            background: url() lightgray 50% / cover no-repeat;
+        }    
+    
+        .card-text {
+            padding-inline: 2rem;
+    
+            .card-title {
+                margin-bottom: .5rem;
+                font-size: 1.5rem;
+            }
+    
+        }
+    
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        &:hover {
+            box-shadow: 0px 0px 16.8px 2px rgba(194, 57, 179, 0.65);
+        }
+        
+    }   
+
+  
+
+    
+
+}
+
+
+

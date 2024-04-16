@@ -1,0 +1,296 @@
+@font-face {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../assets/fonts/segoe-ui-4-cufonfonts/Segoe\ UI.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/segoe-ui-4-cufonfonts/Segoe\ UI\ Bold.ttf) format("ttf");
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+
+blockquote {
+  margin: 0 0 1rem;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+a:not([href]):not([class]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0 0 1rem;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: inherit;
+  text-align: -webkit-match-parent;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+select {
+  word-wrap: normal;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+
+body {
+  font-family: "Segoe UI";
+  background-color: hsl(206, 71%, 8%);
+  color: hsl(120, 47%, 96%);
+  margin: 7rem 10rem;
+  position: relative;
+}
+
+.radial-pink {
+  width: 103rem;
+  height: 95.375rem;
+  background: radial-gradient(50% 50% at 50% 50%, rgb(92, 19, 84) 0%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  top: -120%;
+  left: -100%;
+  z-index: -1;
+}
+
+.radial-blue {
+  width: 69.125rem;
+  height: 70.8125rem;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(14, 71, 117, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  top: -70%;
+  right: -50%;
+  z-index: -1;
+}
+
+.radial-orange {
+  width: 103rem;
+  height: 95.375rem;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(100, 21, 23, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  top: 70%;
+  left: -60%;
+  z-index: -1;
+}
+
+.radial-green {
+  width: 78.375rem;
+  height: 80.3125rem;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(18, 109, 14, 0.37) 0%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  top: 70%;
+  right: -40%;
+  z-index: -1;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4.75rem;
+}
+.header-container .header-title {
+  font-size: 4.25rem;
+  color: hsl(120, 47%, 96%);
+  margin-bottom: 1rem;
+  color: hsl(211, 81%, 90%);
+  font-weight: 600;
+}
+.header-container .header-body {
+  max-width: 34.5rem;
+  font-size: 1.25rem;
+  text-align: center;
+  color: hsl(212, 74%, 95%);
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  gap: 1.5rem;
+}
+.card-container:nth-child(3n) {
+  margin-right: 0;
+}
+.card-container .card {
+  background-color: rgba(207, 228, 250, 0.02);
+  border-radius: 0.5rem;
+  min-height: 21.1rem;
+  padding-bottom: 1rem;
+}
+.card-container .card .card-img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  margin-bottom: 1rem;
+  background: url() lightgray 50%/cover no-repeat;
+}
+.card-container .card .card-text {
+  padding-inline: 2rem;
+}
+.card-container .card .card-text .card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.card-container .card a {
+  text-decoration: none;
+  color: inherit;
+}
+.card-container .card:hover {
+  box-shadow: 0px 0px 16.8px 2px rgba(194, 57, 179, 0.65);
+}/*# sourceMappingURL=main.css.map */

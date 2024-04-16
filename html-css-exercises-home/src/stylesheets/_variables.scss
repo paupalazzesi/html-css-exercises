@@ -1,0 +1,18 @@
+$font-family: 'Segoe UI';
+
+$color-background: hsl(206, 71%, 8%);
+$color-body: hsl(120, 47%, 96%);
+$color-card-title: hsl(211, 81%, 90%);
+$color-card-body: hsl(212, 74%, 95%);
+$color-card-background: rgba(207, 228, 250, 0.02);
+$color-card-border-hover: rgba(194, 57, 179, 0.65);
+
+$color-background-radial-green: radial-gradient(50% 50% at 50% 50%, rgba(18, 109, 14, 0.37) 0%, rgba(0, 0, 0, 0.00) 100%);
+$color-background-radial-blue: radial-gradient(50% 50% at 50% 50%, rgba(14, 71, 117, 0.65) 0%, rgba(0, 0, 0, 0.00) 100%);
+$color-background-radial-pink: radial-gradient(50% 50% at 50% 50%, rgb(92, 19, 84) 0%, rgba(0, 0, 0, 0.00) 100%);
+$color-background-radial-orange: radial-gradient(50% 50% at 50% 50%, rgba(100, 21, 23, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+
+$break-sm: "(min-width: 768px)";
+$break-xl: "(min-width: 1200px)";
+
+$radius-sm: .5rem;
