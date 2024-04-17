@@ -278,7 +278,6 @@ body {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   margin-bottom: 1rem;
-  background: url() lightgray 50%/cover no-repeat;
 }
 .card-container .card .card-text {
   padding-inline: 2rem;
